@@ -124,7 +124,7 @@ const Hero = () => {
         className="absolute h-[444px] w-[444px] md:h-[1180px] md:w-[1180px] rounded-full border border-black/20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-dashed"
       ></motion.div>
       {/* End Ring 4 */}
-      <div className="container relative mx-auto">
+      <div className="container flex flex-col items-center justify-center gap-10 relative mx-auto">
         <h1 className="text-6xl md:text-8xl md:leading-none font-semibold text-center">
           <span className="font-caveat text-6xl md:text-8xl md:leading-none font-semibold text-center mr-5">
             I&apos;m
@@ -142,7 +142,9 @@ const Hero = () => {
           Arnhem, NL
         </h1>
 
-        <div></div>
+        <div className="">
+          <button>Explore!</button>
+        </div>
         {/* <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
           Elevate your site&apos;s visibility effortlessly with AI, where smart
           technology meets user-friendly SEO tools.
