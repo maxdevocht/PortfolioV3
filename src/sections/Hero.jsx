@@ -125,8 +125,8 @@ const Hero = () => {
       ></motion.div>
       {/* End Ring 4 */}
       <div className="container relative mt-16 mx-auto">
-        <h1 className="text-8xl md:leading-none font-semibold tracking-tighter text-center">
-          I&apos;m Max <span className="text-8xl">👋</span>
+        <h1 className="text-7xl md:text-8xl md:leading-none font-semibold tracking-tighter text-center">
+          I&apos;m Max 👋
         </h1>
         <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
           Elevate your site&apos;s visibility effortlessly with AI, where smart
