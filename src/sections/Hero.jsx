@@ -28,7 +28,7 @@ const Hero = () => {
 
   return (
     <motion.section
-      className="h-[492px] md:h-[800px] flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]"
+      className="h-[492px] md:h-screen flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]"
       style={{
         backgroundImage: `url(${starsBlack})`,
         backgroundPositionY,
@@ -124,14 +124,29 @@ const Hero = () => {
         className="absolute h-[444px] w-[444px] md:h-[1180px] md:w-[1180px] rounded-full border border-black/20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-dashed"
       ></motion.div>
       {/* End Ring 4 */}
-      <div className="container relative mt-16 mx-auto">
-        <h1 className="text-7xl md:text-8xl md:leading-none font-semibold tracking-tighter text-center">
-          I&apos;m Max 👋
+      <div className="container relative mx-auto">
+        <h1 className="text-6xl md:text-8xl md:leading-none font-semibold text-center">
+          <span className="font-caveat text-6xl md:text-8xl md:leading-none font-semibold text-center mr-5">
+            I&apos;m
+          </span>{" "}
+          Max 👋
+          <br />
+          <span className="font-caveat text-6xl md:text-8xl md:leading-none font-semibold text-center mr-5">
+            a{" "}
+          </span>{" "}
+          front end
+          <span className="font-caveat text-6xl md:text-8xl md:leading-none font-semibold text-center mx-5">
+            developer
+            <br /> based in{" "}
+          </span>{" "}
+          Arnhem, NL
         </h1>
-        <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
+
+        <div></div>
+        {/* <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
           Elevate your site&apos;s visibility effortlessly with AI, where smart
           technology meets user-friendly SEO tools.
-        </p>
+        </p> */}
         {/* <div className="flex justify-center mt-5">
           <Button>Join waitlist</Button>
         </div> */}
