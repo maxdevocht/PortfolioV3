@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import { starsBlack } from "../assets";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
   const [bgWidth, setBgWidth] = useState(1000); // Default value
@@ -142,8 +143,9 @@ const Hero = () => {
           Arnhem, NL
         </h1>
 
-        <div className="">
+        <div className="flex flex-col items-center mt-10">
           <button>Explore!</button>
+          <ArrowDown />
         </div>
         {/* <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
           Elevate your site&apos;s visibility effortlessly with AI, where smart
