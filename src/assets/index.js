@@ -9,6 +9,7 @@ import framer from "../assets/framer.svg";
 import git from "../assets/git.svg";
 import firebase from "../assets/firebase.svg";
 import avatar from "../assets/avatar.png";
+import avatarSmile from "../assets/avatarSmile.svg";
 
 export {
   starsBg,
@@ -22,4 +23,5 @@ export {
   git,
   firebase,
   avatar,
+  avatarSmile,
 };

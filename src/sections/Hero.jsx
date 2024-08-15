@@ -31,7 +31,6 @@ const Hero = () => {
     <motion.section
       className="sticky top-0 h-[492px] md:h-screen flex items-center overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)] z-10"
       style={{
-        backgroundImage: `url(${starsBlack})`,
         backgroundPositionY,
         // filter: "grayscale(1) brightness(0.5) contrast(1.2)",
       }}

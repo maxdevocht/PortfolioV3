@@ -67,7 +67,7 @@ const Portfolio = () => {
           <span className="font-caveat text-4xl md:text-7xl lg:text-8xl md:leading-none font-semibold text-center mx-2 md:mx-5">
             since
           </span>{" "}
-          2023
+          2022
         </h1>
       </div>
 
