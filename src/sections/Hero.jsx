@@ -29,7 +29,7 @@ const Hero = () => {
 
   return (
     <motion.section
-      className="h-[492px] md:h-screen flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]"
+      className="sticky top-0 h-[492px] md:h-screen flex items-center overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)] z-10"
       style={{
         backgroundImage: `url(${starsBlack})`,
         backgroundPositionY,
@@ -126,27 +126,27 @@ const Hero = () => {
       ></motion.div>
       {/* End Ring 4 */}
       <div className="container flex flex-col items-center justify-center gap-10 relative mx-auto">
-        <h1 className="text-6xl md:text-8xl md:leading-none font-semibold text-center">
-          <span className="font-caveat text-6xl md:text-8xl md:leading-none font-semibold text-center mr-5">
+        <h1 className="text-4xl md:text-7xl lg:text-8xl md:leading-none font-semibold text-center">
+          <span className="font-caveat text-4xl md:text-7xl lg:text-8xl md:leading-none font-semibold text-center mr-2 md:mr-5">
             I&apos;m
           </span>{" "}
           Max 👋
           <br />
-          <span className="font-caveat text-6xl md:text-8xl md:leading-none font-semibold text-center mr-5">
+          <span className="font-caveat text-4xl md:text-7xl lg:text-8xl md:leading-none font-semibold text-center mr-2 md:mr-5">
             a{" "}
           </span>{" "}
           front end
-          <span className="font-caveat text-6xl md:text-8xl md:leading-none font-semibold text-center mx-5">
+          <span className="font-caveat text-4xl md:text-7xl lg:text-8xl md:leading-none font-semibold text-center mx-2 md:mx-5">
             developer
             <br /> based in{" "}
           </span>{" "}
           Arnhem, NL
         </h1>
 
-        <div className="flex flex-col items-center mt-10">
-          <button>Explore!</button>
+        <button className="flex flex-col items-center gap-2">
+          Explore!
           <ArrowDown />
-        </div>
+        </button>
         {/* <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
           Elevate your site&apos;s visibility effortlessly with AI, where smart
           technology meets user-friendly SEO tools.
